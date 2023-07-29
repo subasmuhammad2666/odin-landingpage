@@ -103,6 +103,9 @@ ul{
     background-color: rgb(37, 35, 35);
     min-height: 300px;
     border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .footer .container{
     display: flex;
