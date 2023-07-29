@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: goldenrod;
+    background:black ;
+    border: 2px solid goldenrod;
+}
+h1,h2,p{
+    margin-bottom: 15px;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.navbar {
+    height: 60px;
+}
+.navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.navbar .logo{
+    font-size: x-large;
+    font-weight: bold;
+}
+.navbar a{
+    color: goldenrod;
+    /* removes the underlining */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    color: rgb(209, 186, 52);
+}
+.navbar ul{
+    display:flex;
+}
+.navbar ul li{
+    margin-left: 20px;
+}
+.header{
+    background-color: rgb(37, 35, 35);
+    min-height: 350px;
+}
+.header h1{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.header img{
+    max-width: 350px;
+    margin-top: 30px;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.boxes .text{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.boxes .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.box{
+    background-color: rgb(37, 35, 35);
+    color: goldenrod;
+    border-radius: 10px;
+    margin :15px 10px; 
+    padding:15px 20px;
+    flex-basis: 200px;
+    justify-content: center;
+    border: 2px solid goldenrod;
+}
+.box img{
+    width:100%;
+    height: auto;
+}
+.quote .container{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+    background-color: rgb(37, 35, 35);
+    min-height: 300px;
+    border-radius: 20px;
+}
+.footer .container{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #0151cc;
+    color: white;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer button{
+    background-color: beige;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: white;
+    padding: 5px 25px;
+    font-size: 15px;
+    margin: 10px;
+}   
